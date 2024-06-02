@@ -1,0 +1,12 @@
+x=int(input("Enter the smaller Number:"))
+y=int(input("Enter the bigger Number:"))
+if(y>x):
+    while(y>x):
+        if(x%2==0):
+            print(x)
+        x=x+1
+else:
+    while(x>y):
+        if(y%2==0):
+            print(y)
+        y=y+1
